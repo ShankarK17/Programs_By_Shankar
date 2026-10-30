@@ -1,0 +1,4 @@
+1. sizeof of any pointer of any datatype always remains same as pointer holds the address and addresses usually are numericals,
+so it returns 8 bytes as size which is a long unsigned intergar value i.e format specifier is %ld.
+
+

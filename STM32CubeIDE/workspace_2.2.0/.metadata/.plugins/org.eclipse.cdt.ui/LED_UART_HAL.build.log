@@ -1,0 +1,10 @@
+17:48:29 **** Incremental Build of configuration Debug for project LED_UART_HAL ****
+make -j4 all 
+arm-none-eabi-size  LED_UART_HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11648	     12	   1644	  13304	   33f8	LED_UART_HAL.elf
+Finished building: default.size.stdout
+ 
+
+17:48:30 Build Finished. 0 errors, 0 warnings. (took 163ms)
+

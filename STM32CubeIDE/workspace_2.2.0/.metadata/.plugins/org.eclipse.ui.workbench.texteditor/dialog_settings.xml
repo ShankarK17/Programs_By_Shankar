@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="Rxc"/>
+			<item value="RxCpltCallback"/>
+			<item value="RxC"/>
+			<item value="SYSCFG"/>
+			<item value="SYSCLK"/>
+			<item value="SysTick"/>
+			<item value="CTRL"/>
+			<item value="VAL"/>
+			<item value="LOAD"/>
+			<item value="Systick"/>
+			<item value="SYSTick"/>
+			<item value="Hal_Tick"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;blink_led_button_bare_matel/Inc/stm32f7xx.h&apos; to &apos;stm32f4xx.h&apos;" description="Rename resource &apos;stm32f7xx.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Inc/stm32f7xx.h" name="stm32f4xx.h" stamp="1787144808445" updateReferences="true"/>
+</session>

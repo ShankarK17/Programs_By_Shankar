@@ -1,0 +1,6 @@
+1788248540662	Copy Project 'SPI_MPU_6500'
+1788252587360	Delete resource 'led_blinking_bare_metal'
+1788252593554	Delete resource 'led_button_bare_metal'
+1788418814414	Delete resource 'I2C_READ_WRITE'
+1788419912268	Copy Project 'UART_MPU_I2C'
+1788433626256	Delete resource 'UART_BM'

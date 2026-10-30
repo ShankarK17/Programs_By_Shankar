@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="GPIO_LED"/>
+	</list>
+	<section name="NewImportWizardAction">
+		<section name="STM32ProjectCreationImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="346"/>
+			<item key="DIALOG_Y_ORIGIN" value="134"/>
+			<item key="DIALOG_WIDTH" value="613"/>
+			<item key="DIALOG_HEIGHT" value="460"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu Sans|11.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.st.stm32cube.ide.mcu.ide.category.import"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="346"/>
+			<item key="DIALOG_Y_ORIGIN" value="11"/>
+			<item key="DIALOG_WIDTH" value="613"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Ubuntu Sans|11.0|0|GTK|1|"/>
+		</section>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="205"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="894"/>
+		<item key="DIALOG_HEIGHT" value="641"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu Sans|11.0|0|GTK|1|"/>
+	</section>
+</section>

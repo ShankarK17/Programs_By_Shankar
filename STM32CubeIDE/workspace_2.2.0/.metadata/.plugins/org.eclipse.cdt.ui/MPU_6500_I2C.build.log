@@ -1,0 +1,10 @@
+12:55:14 **** Incremental Build of configuration Debug for project MPU_6500_I2C ****
+make -j4 all 
+arm-none-eabi-size  MPU_6500_I2C.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21560	     12	   1740	  23312	   5b10	MPU_6500_I2C.elf
+Finished building: default.size.stdout
+ 
+
+12:55:14 Build Finished. 0 errors, 0 warnings. (took 138ms)
+

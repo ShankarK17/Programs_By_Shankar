@@ -1,0 +1,14 @@
+/*
+ * myi2c.h
+ *
+ *  Created on: Sep 1, 2026
+ *      Author: shankar
+ */
+
+#ifndef MYI2C_H_
+#define MYI2C_H_
+
+
+
+#endif /* MYI2C_H_ */
+

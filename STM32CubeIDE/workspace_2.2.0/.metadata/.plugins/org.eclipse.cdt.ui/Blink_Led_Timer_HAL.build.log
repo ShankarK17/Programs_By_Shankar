@@ -1,0 +1,10 @@
+17:37:50 **** Incremental Build of configuration Debug for project Blink_Led_Timer_HAL ****
+make -j4 all 
+arm-none-eabi-size  Blink_Led_Timer_HAL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8384	     12	   1644	  10040	   2738	Blink_Led_Timer_HAL.elf
+Finished building: default.size.stdout
+ 
+
+17:37:50 Build Finished. 0 errors, 0 warnings. (took 209ms)
+

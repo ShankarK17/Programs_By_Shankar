@@ -1,0 +1,48 @@
+15:30:25 **** Incremental Build of configuration Debug for project I2C_READ_WRITE ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'I2C_READ_MPU':
+../Core/Src/main.c:105:37: warning: 'Data: ' directive writing 6 bytes into a region of size 5 [-Wformat-overflow=]
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                                ~~~~~^
+../Core/Src/main.c:105:31: note: directive argument in the range [0, 255]
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                               ^~~~~~~~~~~~~~
+../Core/Src/main.c:105:17: note: 'sprintf' output between 10 and 12 bytes into a destination of size 5
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "I2C_READ_WRITE.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/shankar/STM32CubeIDE/workspace_2.2.0/I2C_READ_WRITE/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_READ_WRITE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: I2C_READ_WRITE.elf
+ 
+arm-none-eabi-size  I2C_READ_WRITE.elf 
+arm-none-eabi-objdump -h -S I2C_READ_WRITE.elf  > "I2C_READ_WRITE.list"
+   text	   data	    bss	    dec	    hex	filename
+  37840	    468	   2068	  40376	   9db8	I2C_READ_WRITE.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C_READ_WRITE.list
+ 
+15:30:32 **** Incremental Build of configuration Debug for project I2C_READ_WRITE ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'I2C_READ_MPU':
+../Core/Src/main.c:105:37: warning: 'Data: ' directive writing 6 bytes into a region of size 5 [-Wformat-overflow=]
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                                ~~~~~^
+../Core/Src/main.c:105:31: note: directive argument in the range [0, 255]
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                               ^~~~~~~~~~~~~~
+../Core/Src/main.c:105:17: note: 'sprintf' output between 10 and 12 bytes into a destination of size 5
+  105 |                 sprintf(data, "Data: %d\r\n", og_data);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "I2C_READ_WRITE.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/shankar/STM32CubeIDE/workspace_2.2.0/I2C_READ_WRITE/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_READ_WRITE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: I2C_READ_WRITE.elf
+ 
+arm-none-eabi-size  I2C_READ_WRITE.elf 
+arm-none-eabi-objdump -h -S I2C_READ_WRITE.elf  > "I2C_READ_WRITE.list"
+   text	   data	    bss	    dec	    hex	filename
+  37840	    468	   2068	  40376	   9db8	I2C_READ_WRITE.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C_READ_WRITE.list
+ 

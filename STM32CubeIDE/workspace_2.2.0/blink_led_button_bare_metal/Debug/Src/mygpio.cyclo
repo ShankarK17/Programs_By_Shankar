@@ -1,0 +1,4 @@
+../Src/mygpio.c:4:6:delay_ms	2
+../Src/mygpio.c:22:6:GPIO_init	4
+../Src/mygpio.c:37:6:GPIO_PIN_WRITE	6
+../Src/mygpio.c:62:9:GPIO_PIN_READ	2

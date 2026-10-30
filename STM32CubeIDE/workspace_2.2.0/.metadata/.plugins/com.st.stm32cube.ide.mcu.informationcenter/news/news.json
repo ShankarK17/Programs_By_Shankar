@@ -1,0 +1,27 @@
+data='[ \
+	{ \
+		"image": "news/Cmake_Preset.jpg", \
+		"link": "", \
+		"caption": "" \
+	}, \
+	{ \
+			"image": "news/Vs_Code.jpg", \
+			"link": "", \
+			"caption": "" \
+		}, \
+	{ \
+		"image": "news/Multi_Drop.jpg", \
+		"link": "", \
+		"caption": "" \
+	}, \
+	{ \
+		"image": "news/Eclipse.jpg", \
+		"link": "", \
+		"caption": "" \
+	}, \
+	{ \
+			"image": "news/Sidekick.jpg", \
+			"link": "https://www.st.com/content/st_com/en/about/ai-at-st/stm32-sidekick.html", \
+			"caption": "" \
+		} \
+]';

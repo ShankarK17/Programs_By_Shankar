@@ -1,0 +1,10 @@
+14:36:55 **** Incremental Build of configuration Debug for project SPI_MPU_Temp ****
+make -j4 all 
+arm-none-eabi-size  SPI_MPU_Temp.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27168	    468	   2100	  29736	   7428	SPI_MPU_Temp.elf
+Finished building: default.size.stdout
+ 
+
+14:36:55 Build Finished. 0 errors, 0 warnings. (took 128ms)
+

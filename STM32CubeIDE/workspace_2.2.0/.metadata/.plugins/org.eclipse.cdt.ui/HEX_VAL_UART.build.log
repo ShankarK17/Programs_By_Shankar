@@ -1,0 +1,10 @@
+10:34:31 **** Incremental Build of configuration Debug for project HEX_VAL_UART ****
+make -j4 all 
+arm-none-eabi-size  HEX_VAL_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11828	     32	   1648	  13508	   34c4	HEX_VAL_UART.elf
+Finished building: default.size.stdout
+ 
+
+10:34:32 Build Finished. 0 errors, 0 warnings. (took 154ms)
+

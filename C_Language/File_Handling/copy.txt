@@ -1,0 +1,1 @@
+This content is originally written in file "original.txt" and will be copied in file "copy.txt".
